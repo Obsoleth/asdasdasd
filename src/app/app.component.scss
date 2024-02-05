@@ -12,6 +12,7 @@
 }
 
 h1 {
+    font-family: 'Comic Sans MS', cursive;
     text-align: center;
     color: white;
     font-size: 5rem;
@@ -24,10 +25,10 @@ h1 {
 }
 
 h2 {
-
+  font-family: 'Comic Sans MS', cursive;
   text-align: center;
   color: white;
-  font-size: 3rem;
+  font-size: 2.5rem;
   text-transform: uppercase;
   letter-spacing: 0.1em;
   margin: 0;
@@ -35,17 +36,7 @@ h2 {
   margin-top: 40px;
   
 }
-@keyframes glitter {
-    0% {
-        text-shadow: 0 0 20px #ffcc00, 0 0 30px #ff5500, 0 0 40px #ff5500, 0 0 70px #ff5500;
-    }
-    50% {
-        text-shadow: 0 0 30px #ffcc00, 0 0 40px #ff5500, 0 0 50px #ff5500, 0 0 90px #ff5500;
-    }
-    100% {
-        text-shadow: 0 0 20px #ffcc00, 0 0 30px #ff5500, 0 0 40px #ff5500, 0 0 70px #ff5500;
-    }
-}
+
 body {
     margin: 0;
     padding: 0;
